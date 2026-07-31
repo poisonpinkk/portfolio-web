@@ -11,17 +11,23 @@ projects = [
   {
     title: 'Proyecto 1',
     description: 'Aplicación web desarrollada para resolver un problema concreto.',
-    technologies: 'Angular · TypeScript · SCSS'
+    technologies: 'Angular · TypeScript · SCSS',
+    link: 'https://github.com/',
+    image: 'proyecto-3.png'
   },
   {
     title: 'Proyecto 2',
     description: 'Otro proyecto desarrollado durante mi proceso de aprendizaje.',
-    technologies: 'Python · Django · SQLite'
+    technologies: 'Python · Django · SQLite',
+    link: 'https://github.com/',
+    image: 'proyecto-2.png'
   },
   {
     title: 'Proyecto 3',
     description: 'Proyecto personal que demuestra mis habilidades en desarrollo web.',
-    technologies: 'React · JavaScript · CSS'
+    technologies: 'React · JavaScript · CSS',
+    link: 'https://github.com/',
+    image: 'proyecto-1.png'
   }
 ];
 }

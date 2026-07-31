@@ -1,0 +1,10 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+}  //acomodamos el navbar para que se vea bien en la pantalla
+.nav-links {
+  display: flex;
+  gap: 2rem;
+} //un gap para que los links no se vean pegados entre sí.

@@ -1,8 +1,25 @@
 //COMIENZA LA SECCIÓN DE PROYECTOS
-.project-card {
+.project-card { //organiza las tarjetas de proyectos en un contenedor con estilo
   padding: 24px;
   margin-top: 24px;
   border: 1px solid #ddd;
   border-radius: 12px;
   max-width: 600px;
+} //les da la forma con el cuadrado y margen para que no se peguen entre sí
+.projects {
+  padding: 4rem 3rem;
+}
+
+.projects h2 {
+  margin-bottom: 2rem;
+}
+.projects-grid { //da estilo a cada tarjeta
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+@media (max-width: 768px) { //dejar una sola columna en pantallas pequeñas
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
 }

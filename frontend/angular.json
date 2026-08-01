@@ -32,10 +32,11 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+            "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+            "src/styles.scss"
             ],
             "scripts": []
-          },
+         },
           "configurations": {
             "production": {
               "budgets": [

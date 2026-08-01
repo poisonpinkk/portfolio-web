@@ -1,0 +1,35 @@
+
+.hero {
+  padding: 6rem 3rem;
+}//le damos espacio interno al Hero, para que no quede pegado al navbar
+
+.hero-content {
+  max-width: 600px;
+}//evitamos que el párrafo se estire por toda la pantalla
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+} //jerarquía visual, el h1 es más grande que el h2, y le damos un margen para separar el título de lo demás
+.hero h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;//vuelve a controlar el espacio entre el subtítulo y el párrafo.
+}
+//boton hero para que tenga bordes y  parezca botón
+.hero-button {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.9rem 1.8rem;
+
+  background-color: #111;
+  color: white;
+  text-decoration: none;
+
+  border-radius: 8px;
+
+  transition: all 0.3s ease;
+}
+.hero-button:hover {
+  background-color: #333;
+  transform: translateY(-3px);
+}

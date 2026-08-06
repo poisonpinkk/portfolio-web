@@ -7,7 +7,7 @@ import {HeroComponent} from './hero/hero.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, ProjectsComponent, ContactComponent, NavbarComponent, HeroComponent],
+  imports: [ProjectsComponent, ContactComponent, NavbarComponent, HeroComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

@@ -4,7 +4,7 @@ import { Project } from '../models/project.models';
   providedIn: 'root'//Crea una única instancia de este servicio y haz que esté disponible para toda la aplicación
 })
 export class ProjectsService {
-projects: Project[] = [
+private projects: Project[] = [
   {
     title: 'Proyecto 1',
     description: 'Aplicación web desarrollada para resolver un problema concreto.',
@@ -27,5 +27,11 @@ projects: Project[] = [
     image: 'proyecto-1.png'
   }
 ];
+getProjects(): Project[] {
+  return this.projects;
+}
+getProjectByTitle(title: string): Project | undefined {
+  return this.projects.find(project => project.title === title);
+}
   constructor() { }
 }

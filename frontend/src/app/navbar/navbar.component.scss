@@ -8,8 +8,9 @@
   position: sticky;
   top: 0;
 
-  background: white;
-
+  background: rgba(255,255,255,.75);
+  box-shadow: 0 4px 20px rgba(0,0,0,.05);
+  backdrop-filter: blur(12px);
   z-index: 1000;
 }
 
@@ -22,7 +23,7 @@
 
 .nav-links {
   display: flex;
-  gap: 2rem;
+  gap:2.5rem;
 }
 
 .nav-links a {
@@ -34,4 +35,10 @@
 
 .nav-links a:hover {
   color: #000;
+}
+span{
+    color:#7C3AED;
+}
+a{
+    position:relative;
 }

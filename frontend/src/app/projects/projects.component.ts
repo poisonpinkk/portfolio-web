@@ -22,6 +22,6 @@ export class ProjectsComponent implements OnInit {
     // En este momento el servicio ya está disponible, por lo que
     // podemos obtener los proyectos y asignarlos a la propiedad
     // que utiliza el HTML para mostrarlos.
-    this.projects = this.projectsService.projects;
+  this.projects = this.projectsService.getProjects();
   }
 }
